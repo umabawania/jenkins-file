@@ -6,6 +6,7 @@ pipeline {
             steps {
                 // Clone the GitHub repository
                 git branch: 'main', url: 'https://github.com/umabawania/customs-addons.git'
+                sh 'pwd'
                 sh 'ls'
                 sh 'pwd'
             }
